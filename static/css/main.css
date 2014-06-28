@@ -4,6 +4,10 @@ header{padding:0.5em 0;text-align:left;letter-spacing:0.20em;}header h1,header h
 header img{float:left;margin:0 1em 0.5em 0;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;border:1px solid #c8c1c1;}
 section{font-size:14px;padding:0.5em 0;clear:left;}
 footer{padding:1% 2% 1% 5%;text-align:center;}footer p{padding:0;margin:0 0 0.5em 0;}
-#wrapper{margin:0 10%;padding:5% 5% 2% 5%;-webkit-box-shadow:5px 5px 10px #7dc1b5;-moz-box-shadow:5px 5px 10px #7dc1b5;box-shadow:5px 5px 10px #7dc1b5;background-color:#f8f7f7;}
+h3{margin:0.5em 0;}
+#wrapper{margin:0 10%;padding:2% 5%;-webkit-box-shadow:5px 5px 10px #7dc1b5;-moz-box-shadow:5px 5px 10px #7dc1b5;box-shadow:5px 5px 10px #7dc1b5;background-color:#f8f7f7;}
 #about p{padding:0;margin:0 0 0.5em 0;}
 ul.social{list-style-type:circle;list-style-position:inside;margin:0;padding:1em 0;}ul.social li{display:inline-block;margin:0;padding:0;}
+#open-source{display:flex;flex-direction:row;justify-content:space-between;}#open-source h4{margin-top:0;}
+#open-source ul{margin:0;padding-left:15px;}
+#sharing ul{margin:0;padding-left:15px;}

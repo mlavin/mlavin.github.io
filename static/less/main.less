@@ -80,13 +80,17 @@ footer {
     }
 }
 
+h3 {
+    margin: 0.5em 0;
+}
+
 /**
 * Selector specific styles
 **/
 
 #wrapper {
     margin: 0 10%;
-    padding: 5% 5% 2% 5%;
+    padding: 2% 5%;
     .box-shadow(5px, 5px, 10px, darken(@bodyBackground, 25%));
     background-color: @contentBackground;
 }
@@ -107,5 +111,27 @@ ul.social {
         display: inline-block;
         margin: 0;
         padding: 0;
+    }
+}
+
+#open-source {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h4 {
+        margin-top: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 15px;
+    }
+}
+
+#sharing {
+    ul {
+        margin: 0;
+        padding-left: 15px;
     }
 }
