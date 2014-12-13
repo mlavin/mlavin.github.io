@@ -10,4 +10,4 @@ footer{text-align:center;background-color:#f8f7f7;flex:1 100%;padding:10px 5%;}f
 footer a{color:#f20418;}footer a:hover,footer a:active{color:#cc2f36;}
 #wrapper{display:flex;flex-flow:row wrap;}
 #main{flex:1 100%;padding:10px 5%;min-height:600px;}
-#index #main{background:url('/static/img/djangocon-2014.jpg?125cf883e344') no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:relative;}#index #main .credit{position:absolute;bottom:0;color:#f8f7f7;font-size:0.8em;padding:5px 0;}
+#index #main{background:url('/static/img/djangocon-2014.jpg?28868c9b2495') no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:relative;}#index #main .credit{position:absolute;bottom:0;color:#f8f7f7;font-size:0.8em;padding:5px 0;}
