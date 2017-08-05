@@ -1,0 +1,24 @@
+body{font-family:'Titillium Web',sans-serif;font-size:1.2em;margin:0;color:#0d0808;background-color:#f8f7f7;}
+a{color:#cc2f36;}a:hover,a:active{color:#f20418;}
+h1,h2,h3,h4{font-family:Inconsolata,"Lucida Console",Monaco,monospace;}
+ul{margin:0;padding-left:15px;}
+header{padding:0.5em 0;text-align:left;letter-spacing:0.20em;background-color:#cc2f36;color:#f8f7f7;flex:1 100%;padding:10px 5%;}header a{color:#f8f7f7;}header a:hover{text-decoration:none;color:#f8f7f7;}
+header h1{margin:0;padding:0.25em 0;font-size:2.4em;}header h1 a{text-decoration:none;}header h1 a:before{content:'>>> ';}
+header p{margin:5px 0;}
+section{padding:0.5em 0;}
+footer{text-align:center;background-color:#f8f7f7;flex:1 100%;padding:10px 5%;}footer p{font-size:0.6em;padding:0;margin:0 0 0.5em 0;}
+footer a{color:#f20418;}footer a:hover,footer a:active{color:#cc2f36;}
+#wrapper{display:flex;flex-flow:row wrap;}
+#main{flex:1 100%;padding:10px 5%;min-height:600px;}
+#index #main{background:url('/static/img/djangocon-2014.jpg?28868c9b2495') no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:relative;}#index #main .credit{position:absolute;bottom:0;color:#f8f7f7;font-size:0.8em;padding:5px 0;}
+@media (min-height:650px){#index #main{padding-top:300px;}}#resume .info{text-align:center;}#resume .info h2{margin:0;}
+#resume .info ul li{display:inline-block;padding:5px 5px 5px 0px;}#resume .info ul li+li:before{content:'|';padding:0 5px;}
+#resume .experience .job h3{float:left;margin:0.5em 0;}
+#resume .experience .job h4{float:right;margin:0.5em 0;}
+#resume .experience .job dl{font-size:0.8em;clear:both;display:flex;flex-direction:row;flex-flow:row wrap;}#resume .experience .job dl dt,#resume .experience .job dl dd{flex-basis:50%;margin:0;}
+#resume .experience .job dl dt{text-align:left;}
+#resume .experience .job dl dd{text-align:right;font-style:italic;}
+#resume .experience .job ul{margin:1em;font-size:0.9em;}
+#resume .education .degree{clear:both;}#resume .education .degree h3{float:left;margin:0.5em 0;}
+#resume .education .degree h4{float:right;margin:0.5em 0;}
+@media print{#resume{font-size:12px;}#resume header,#resume footer{display:none;} #resume h2{margin:0.5em 0;} #resume .job p{font-size:0.6em;}}
