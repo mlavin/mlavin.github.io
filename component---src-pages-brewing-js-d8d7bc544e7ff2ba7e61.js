@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{Zq8A:function(t,e,n){"use strict";n.r(e);n("q1tI");var c=n("YwZP"),o=n("qKvR");e.default=function(){return Object(o.c)(c.Redirect,{to:"/hobbies/"})}}}]);
+//# sourceMappingURL=component---src-pages-brewing-js-d8d7bc544e7ff2ba7e61.js.map
